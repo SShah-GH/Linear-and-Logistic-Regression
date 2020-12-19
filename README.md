@@ -1,4 +1,4 @@
-# ImageRecog
+# Image Classification using Logistic Regression
 
 CS Project for Image Recognition.
 
