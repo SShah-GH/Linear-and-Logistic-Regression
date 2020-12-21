@@ -1,3 +1,5 @@
+# Scikit-learn version of program
+
 import numpy as np 
 import pandas as pd 
 
@@ -6,6 +8,8 @@ dataset.head()
 
 x = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
+print(x[:10])
+print(y[:10])
 
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 0)
