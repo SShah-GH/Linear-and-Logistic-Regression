@@ -1,8 +1,7 @@
 import numpy as np 
 import pandas as pd 
 
-import pandas as pd
-dataset = pd.read_csv('dataset_iris.csv')
+dataset = pd.read_csv('Iris.csv')
 dataset.head()
 
 x = dataset.iloc[:, 1:-1].values
