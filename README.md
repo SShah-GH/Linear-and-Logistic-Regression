@@ -1,7 +1,6 @@
-# Image Classification using Logistic Regression
+# Image Classification using Logistic Regression:
 
-CS Project for Image Recognition.
+# Description
 
-## This is fantastic
+This project is a custom library of linear and logistic regression algotithms. It was created using python while taking advantage of fundamental machine learning techniques to create a fast and easy to use library.
 
-It actually works.
